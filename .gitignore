@@ -1,7 +1,22 @@
+# macOS
 .DS_Store
 **/.DS_Store
+
+# Node.js
+node_modules/
 **/node_modules/
+
+# Python
+.venv/
 **/.venv/
-**/.env
-**/.env.*
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
 !**/.env.example
+
+# Build output
+build/
+dist/
